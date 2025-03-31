@@ -5,6 +5,7 @@ import joblib
 import os
 import re
 
+
 # Load the trained model and encoders
 rf_model = joblib.load("rf_model.pkl")
 label_encoders = joblib.load("label_encoders.pkl")
